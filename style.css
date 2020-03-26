@@ -3,7 +3,7 @@ body {
 }
 
 .profile-content {
-  position: fixed;
+  position: absolute;
   left: 50%;
   transform: translate(-50%, 0);
 }
@@ -15,8 +15,6 @@ body {
   z-index: 4;
 }
 
-
-
 .main-container {
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +24,6 @@ body {
   align-content: center;
   animation: fadeIn 2s forwards;
   margin: 1rem;
-
 }
 
 .profile {
@@ -38,7 +35,6 @@ body {
 h4 {
   color: gray;
 }
-
 
 @keyframes fadeIn {
   from {
